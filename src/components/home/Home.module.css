@@ -1,0 +1,14 @@
+.home {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 80px;
+    left: 18%;
+    width: 82%;
+    height: 1000px;
+    background: rgb(247,247,247);
+    background: linear-gradient(311deg, rgba(247,247,247,1) 0%, rgba(222,225,228,1) 0%);
+}
+.home p {
+    padding: 20px;
+}

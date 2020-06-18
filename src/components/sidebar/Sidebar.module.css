@@ -1,0 +1,41 @@
+.sidebar{
+    position: fixed;
+    width: 18%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 2;
+    overflow: hidden;
+    background: rgb(247,247,247);
+    background: linear-gradient(311deg, rgba(247,247,247,1) 0%, rgba(222,225,228,1) 100%);
+    
+}
+
+.sidebar .container {
+    height: 100%;
+    border-bottom: 0.6px solid rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+}
+
+.sidebar h2 {
+    position: relative;
+    top: 0px;
+    font-family: Open-Sans-bold;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    width: 100%;
+    color: black;
+    
+}
+
+.sidebar .container .f{
+    
+}
+

@@ -1,0 +1,28 @@
+.navbar {
+    position: fixed;
+    width: 82%;
+    height: 10px;
+    left: 18%;
+    z-index: 1;
+    justify-content: flex-start;
+    background: rgb(247,247,247);
+    background: linear-gradient(311deg, rgba(247,247,247,1) 0%, rgba(222,225,228,1) 0%);
+    padding: 0;
+    margin: 0;
+    border-bottom: 0.3px solid rgba(0, 0, 0, 0.5);
+    display: table;
+}
+
+.navbar .container {
+    display: flex;
+    position: relative;
+    width: 60%;
+    padding-left: 20px;
+    justify-content: space-between;
+}
+
+.navbar .container h2 {
+    font-family: Open-Sans-bold;
+    font-weight: lighter;
+    color: black;
+}
