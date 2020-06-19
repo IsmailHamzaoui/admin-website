@@ -6,6 +6,7 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 import purple from '@material-ui/core/colors/purple';
 import green from '@material-ui/core/colors/green';
 import createPalette from '@material-ui/core/styles/createPalette';
+import {Label} from "@material-ui/icons";
 
 
 const useStyles = makeStyles((theme) => ({
@@ -14,25 +15,21 @@ const useStyles = makeStyles((theme) => ({
         margin: theme.spacing(1.5),
         width: '25ch',
         height: '70%'
-            
-    
-
     },
 }
 )
 );
 
 
-export default function BasicTextFields() {
+export default function BasicTextFields(props) {
     const classes = useStyles();
 
 
     return (
         <form className={classes.root} noValidate autoComplete="off">
-            
             <TextField
             id="outlined-basic" 
-            label="Outlined" 
+            label={props.label}
             variant="outlined"
              />
         </form>

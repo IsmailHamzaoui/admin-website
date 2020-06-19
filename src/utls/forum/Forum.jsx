@@ -6,13 +6,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Forum = (props) => {
 
 return (
-    <div className={style.forum}>
+    <div className={style.forum} >
         <FontAwesomeIcon  icon={props.icon}  size="med"  fixedWidth className={style.icon} />
-        <button>
+        <button onClick={props.onClick}>
             {props.text}
         </button>
     </div>
-    
 )
 };
 

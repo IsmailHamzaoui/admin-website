@@ -12,6 +12,10 @@
     
 }
 
+.addStudent{
+    background-color: #faf2f2;
+}
+
 .sidebar .container {
     height: 100%;
     border-bottom: 0.6px solid rgba(0, 0, 0, 0.5);

@@ -1,21 +1,24 @@
-/* import React, {useState} from 'react';
+import React, {Component, useState} from 'react';
 import style from "./Modal.module.css";
 
 
-const Modal = (props) => {
-    return (
-        <div className={style.modal}>
-            <div className={style.fullScreen} onClick={props.close}>
-                <div className={style.container}>
-                    <button>
-                        next
-                    </button>
+class Modal extends Component {
+
+    constructor(props) {
+        super(props);
+    }
+
+    render() {
+        return (
+            <div className={style.container}>
+                <div className={style.cover}>
+                    <div className={style.modal}>
+                        {this.props.children}
+                    </div>
                 </div>
             </div>
-
-
-        </div>
-    )
+        )
+    }
 };
 
-export default Modal; */
+export default Modal;
